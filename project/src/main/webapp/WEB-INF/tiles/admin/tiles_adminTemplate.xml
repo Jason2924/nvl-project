@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Brand Page -->
+	<definition name="admin.brand.index" extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/brand/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Category Page -->
+	<definition name="admin.category.index"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/category/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Comment Page -->
+	<definition name="admin.commend.index"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/commend/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Account Page -->
+	<definition name="admin.account.index"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/account/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Dashboard Page -->
+	<definition name="admin.dashboard.index"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Order Page -->
+	<definition name="admin.order.index" extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/order/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Delivery Page -->
+	<definition name="admin.delivery.index"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/delivery/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Product Page (Phone) -->
+	<definition name="admin.product.phone"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/product/phone.jsp"></put-attribute>
+	</definition>
+
+	<!-- Product Page (Accessory) -->
+	<definition name="admin.product.accessory"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/product/accessory.jsp"></put-attribute>
+	</definition>
+
+	<!-- Discount Page (Promotion) -->
+	<definition name="admin.promotion.index"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/discount/promotion.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Discount Page (Voucher) -->
+	<definition name="admin.voucher.index"
+		extends="admintemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/discount/voucher.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>

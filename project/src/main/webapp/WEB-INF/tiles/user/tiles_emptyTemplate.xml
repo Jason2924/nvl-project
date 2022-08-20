@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	
+	<!-- Forgot Password Page -->
+	<definition name="user.forgotpassword.index" extends="emptytemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/forgotpassword/index.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Login Page -->
+	<definition name="user.login.index" extends="emptytemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/login/index.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Manage Profile Page -->
+	<definition name="user.manageprofile.index" extends="emptytemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/manageprofile/index.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Register Page -->
+	<definition name="user.register.index" extends="emptytemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/register/index.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>

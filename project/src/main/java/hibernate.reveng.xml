@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="nvl" match-name="account"/>
+  <table-filter match-catalog="nvl" match-name="brand"/>
+  <table-filter match-catalog="nvl" match-name="category"/>
+  <table-filter match-catalog="nvl" match-name="commend"/>
+  <table-filter match-catalog="nvl" match-name="customer"/>
+  <table-filter match-catalog="nvl" match-name="delivery"/>
+  <table-filter match-catalog="nvl" match-name="exchange"/>
+  <table-filter match-catalog="nvl" match-name="new"/>
+  <table-filter match-catalog="nvl" match-name="order"/>
+  <table-filter match-catalog="nvl" match-name="order_detail"/>
+  <table-filter match-catalog="nvl" match-name="payment"/>
+  <table-filter match-catalog="nvl" match-name="photo"/>
+  <table-filter match-catalog="nvl" match-name="price"/>
+  <table-filter match-catalog="nvl" match-name="product"/>
+  <table-filter match-catalog="nvl" match-name="promotion"/>
+  <table-filter match-catalog="nvl" match-name="promotion_detail"/>
+  <table-filter match-catalog="nvl" match-name="voucher"/>
+</hibernate-reverse-engineering>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	
+	<definition name="admintemplate" template="/WEB-INF/views/templates/admin_template.jsp">
+	</definition>
+	
+	<definition name="usertemplate" template="/WEB-INF/views/templates/user_template.jsp">
+	</definition>
+	
+	<definition name="emptytemplate" template="/WEB-INF/views/templates/empty_template.jsp">
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,218 @@
+body {
+	color: #404E67;
+	background: #F5F7FA;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 100%;
+}
+
+.table-wrapper {
+	width: 100%;
+	margin: 30px auto;
+	background: #fff;
+	padding: 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.table-title {
+	padding-bottom: 10px;
+	margin: 0 0 10px;
+}
+
+.table-title h2 {
+	margin: 6px 0 0;
+	font-size: 22px;
+}
+
+.table-title .add-new {
+	float: right;
+	height: 30px;
+	font-weight: bold;
+	font-size: 12px;
+	text-shadow: none;
+	min-width: 100px;
+	border-radius: 50px;
+	line-height: 13px;
+}
+
+.table-title .add-new i {
+	margin-right: 4px;
+}
+
+table.table {
+	table-layout: fixed;
+}
+
+table.table tr th, table.table tr td {
+	border-color: #e9e9e9;
+}
+
+table.table th i {
+	font-size: 13px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+table.table th:last-child {
+	width: 100px;
+}
+
+table.table td a {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 5px;
+	min-width: 22px;
+}
+
+table.table td a.add {
+	color: #27C46B;
+}
+
+table.table td a.edit {
+	color: #FFC107;
+}
+
+table.table td a.edit-no {
+	color: #FFC107;
+}
+
+table.table td a.delete-no {
+	color: #E34724;
+}
+
+table.table td i {
+	font-size: 19px;
+}
+
+table.table td a.add i {
+	font-size: 24px;
+	margin-right: -1px;
+	position: relative;
+	top: 3px;
+}
+
+table.table .form-control {
+	height: 32px;
+	line-height: 32px;
+	box-shadow: none;
+	border-radius: 2px;
+}
+
+table.table .form-control.error {
+	border-color: #f50000;
+}
+
+table.table td .add {
+	display: none;
+}
+
+.table-striped tr th a {
+	color: #212529;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+/* ORDER LIST CSS */
+
+/* admin_template css */
+.text-font {
+	font-weight: bold;
+}
+
+/* DETELE CONFIRM */
+
+.delete-confirm {
+	position: relative;
+	display: inline-block;
+}
+
+.delete-confirm a {
+	position: relative;
+	font-size: 20px;
+	white-space: nowrap;
+	padding: 0.5em 2em;
+	background: none;
+	/* color: white; */
+	border: none;
+	line-height: 20px;
+}
+
+.delete-confirm a .fa+.text {
+	margin-left: 8px;
+}
+
+.delete-confirm a.delete-no {
+	z-index: 3;
+	transition: all 0.2s ease 0.1s;
+}
+
+.delete-confirm a.delete-no.confirm {
+	background-color: transparent;
+	color: #444;
+	transition: all 0.2s ease 0.2s;
+	z-index: 0;
+}
+
+.delete-confirm a.delete-no.confirm ~ a.yes, .delete-confirm a.delete-no.confirm 
+	 ~ a.no {
+	visibility: visible;
+	color: yes;
+	transition: all 0.5s ease, visibility 0, background-color 0.3s ease 0.2s;
+}
+
+.delete-confirm a.delete-no.confirm ~ a.yes:after,
+	.delete-confirm a.delete-no.confirm ~ a.no:after {
+	opacity: 1;
+	transition: all 0.3s ease 0.2s;
+}
+
+.delete-confirm a.delete-no.confirm ~ a.yes {
+	transform: translate(-100%, 0);
+	background-color: #00aa05;
+}
+
+.delete-confirm a.delete-no.confirm ~ a.no {
+	transform: translate(100%, 0);
+	background-color: #bb0600;
+}
+
+.delete-confirm a.yes, .delete-confirm a.no {
+	position: absolute;
+	top: 0;
+	color: white;
+	visibility: hidden;
+	z-index: 1;
+	transition: all 0.5s ease, visibility 0.1s, background-color 0.3s ease;
+}
+
+.delete-confirm a.yes i, .delete-confirm a.no i {
+	position: relative;
+	top: -1px;
+}
+
+.delete-confirm a.yes {
+	left: 41px;
+}
+
+.delete-confirm a.yes:after {
+	right: 70px;
+	transform: translate(50%, -50%);
+}
+
+.delete-confirm a.no {
+	right: 41px;
+}
+
+.delete-confirm a:focus {
+	outline: none;
+}
+
+.delete-confirm.small a, .delete-confirm a.small {
+	padding: 3px 5px;
+	text-align: center;
+	/* width: 32px;
+	height: 32px; */
+	line-height: 16px;
+}

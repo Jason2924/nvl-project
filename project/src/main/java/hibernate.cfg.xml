@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/nvl</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.enable_lazy_load_no_trans">true</property>
+
+		<mapping class="com.demo.entities.Account" />
+		<mapping class="com.demo.entities.Brand" />
+		<mapping class="com.demo.entities.Category" />
+		<mapping class="com.demo.entities.Commend" />
+		<mapping class="com.demo.entities.CommendId" />
+		<mapping class="com.demo.entities.Customer" />
+		<mapping class="com.demo.entities.Delivery" />
+		<mapping class="com.demo.entities.Exchange" />
+		<mapping class="com.demo.entities.New" />
+		<mapping class="com.demo.entities.Order" />
+		<mapping class="com.demo.entities.OderDetail" />
+		<mapping class="com.demo.entities.OderDetailId" />
+		<mapping class="com.demo.entities.Payment" />
+		<mapping class="com.demo.entities.Photo" />
+		<mapping class="com.demo.entities.Price" />
+		<mapping class="com.demo.entities.Product" />
+		<mapping class="com.demo.entities.Promotion" />
+		<mapping class="com.demo.entities.PromotionDetail" />
+		<mapping class="com.demo.entities.PromotionDetailId" />
+    </session-factory>
+</hibernate-configuration>

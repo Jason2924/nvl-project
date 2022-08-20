@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Home Page -->
+	<definition name="user.home.index" extends="usertemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/home/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Contact Page -->
+	<definition name="user.contact.index" extends="usertemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/contact/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Payment Page -->
+	<definition name="user.payment.index" extends="usertemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/payment/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Shop Page (Product List) -->
+	<definition name="user.shop.index" extends="usertemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/shop/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Cart Page -->
+	<definition name="user.cart.index" extends="usertemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/cart/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Product Page (Product Info) -->
+	<definition name="user.product.index" extends="usertemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/product/index.jsp"></put-attribute>
+	</definition>
+
+	<!-- Invoice Page -->
+	<definition name="user.invoice.index" extends="usertemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/invoice/index.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Search Page -->
+	<definition name="user.search.index" extends="usertemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/user/search/index.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>
